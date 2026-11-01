@@ -15,7 +15,7 @@ const int mqttPort = 1883;
 const char* clientId = "ESP8266_LabIoT_25782017";
 
 // Definisi Topik Publikasi Telemetri Mandiri
-const char* topicPubTelemetry = "kampus/labiot/nim_anda/telemetri";
+const char* topicPubTelemetry = "kampus/labiot/25782017/telemetri";
 
 // Konfigurasi Pin Sensor DHT
 const byte dhtPin = 2;   // Pin D4 (GPIO 2)
